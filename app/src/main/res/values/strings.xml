@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Preference Fragment App</string>
+
+    <string name="title">Preference Fragment</string>
+    <string name="user_name">Username</string>
+    <string name="user_name_summary">Set username for welcome screen</string>
+    <string name="application_tint_color">App Tint Color</string>
+    <string name="application_tint_color_summary">Select your App Tint Color</string>
+
+    <string-array name="color_list">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="color_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

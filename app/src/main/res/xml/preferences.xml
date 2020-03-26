@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Basic Preferences">
+        <EditTextPreference
+            android:icon="@drawable/ic_user"
+            android:key="edit_pref"
+            android:summary="@string/user_name_summary"
+            android:title="@string/user_name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Theme Preferences">
+        <ListPreference
+
+            android:defaultValue="Default"
+            android:entries="@array/color_list"
+            android:entryValues="@array/color_list"
+            android:icon="@drawable/ic_color"
+            android:key="list_pref"
+            android:summary="%s"
+            android:title="@string/application_tint_color" />
+    </PreferenceCategory>
+</PreferenceScreen>
